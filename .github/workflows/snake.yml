@@ -1,0 +1,29 @@
+name: Generate Snake Animation
+
+on:
+  schedule:
+    - cron: "0 0 * * *"   # daily at 00:00 UTC
+  workflow_dispatch:        # allows manual "Run workflow" from the Actions tab
+  push:
+    branches:
+      - main
+
+permissions:
+  contents: write
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Generate contribution snake SVG
+        uses: Platane/snk@v3
+        id: snake
+        with:
+          github_user_name: Anzar0904
+          outputs: assets/snake-generated.svg?palette=github-dark
+
+      - name: Commit and push if changed
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: "chore(snake): update contribution snake animation"
+          file_pattern: assets/snake-generated.svg
