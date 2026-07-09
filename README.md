@@ -31,7 +31,7 @@
 ```
 aios@anzar:~$ whoami
 
-  operator     Anzar Khan
+  operator     Anzar Akhtar
   handle       @Anzar0904
   role         AI/ML Engineering Student
 
