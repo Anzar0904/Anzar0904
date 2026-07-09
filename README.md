@@ -281,7 +281,7 @@ class Mission:
 ### Recent Activity
 
 <!--START_SECTION:activity-->
-> *Recent GitHub activity loads here automatically. The `recent-activity.yml` workflow populates this section daily.*
+1. 🎉 Merged PR [#3](https://github.com/Anzar0904/demo/pull/3) in [Anzar0904/demo](https://github.com/Anzar0904/demo)
 <!--END_SECTION:activity-->
 
 ### Metrics
