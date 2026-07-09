@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 120" width="100%" role="img" aria-label="AIOS profile footer — session end">
+  <defs>
+    <linearGradient id="fBg" x1="0%" y1="100%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#0A0E14"/>
+      <stop offset="100%" style="stop-color:#141A2A"/>
+    </linearGradient>
+    <linearGradient id="fSig" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#A855F7"/>
+      <stop offset="100%" style="stop-color:#22D3EE"/>
+    </linearGradient>
+    <pattern id="fGrid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#22D3EE" stroke-width="0.25" opacity="0.12"/>
+    </pattern>
+  </defs>
+
+  <rect width="900" height="120" fill="url(#fBg)"/>
+  <rect width="900" height="120" fill="url(#fGrid)"/>
+
+  <!-- Top gradient rule -->
+  <rect x="0" y="0" width="900" height="2" fill="url(#fSig)" opacity="0.7"/>
+
+  <!-- Decorative circuit lines (mirrored from banner) -->
+  <g opacity="0.15" stroke="#22D3EE" stroke-width="1" fill="none">
+    <polyline points="0,60 60,60 80,80 160,80"/>
+    <circle cx="160" cy="80" r="3" fill="#22D3EE" opacity="0.5"/>
+    <polyline points="740,40 800,40 820,20 900,20"/>
+    <circle cx="740" cy="40" r="2" fill="#A855F7" opacity="0.5"/>
+  </g>
+
+  <!-- Sign-off text -->
+  <text x="450" y="48" font-family="'JetBrains Mono',ui-monospace,monospace" font-size="14" fill="#64748B" text-anchor="middle">// end of session</text>
+
+  <text x="450" y="70" font-family="'JetBrains Mono',ui-monospace,monospace" font-size="11" fill="#A855F7" text-anchor="middle" opacity="0.8">
+    Built with intent · Engineered for longevity · Running on curiosity
+  </text>
+
+  <!-- Bottom prompt line -->
+  <text x="360" y="96" font-family="'JetBrains Mono',ui-monospace,monospace" font-size="12" fill="#A855F7" text-anchor="end">aios@anzar:~$</text>
+  <text x="365" y="96" font-family="'JetBrains Mono',ui-monospace,monospace" font-size="12" fill="#E2E8F0"> logout</text>
+
+  <!-- Blinking cursor -->
+  <rect x="440" y="83" width="8" height="14" fill="#A855F7" rx="1">
+    <animate attributeName="opacity" values="1;0;1" dur="1.1s" repeatCount="indefinite"/>
+  </rect>
+
+  <!-- Bottom rule -->
+  <rect x="0" y="118" width="900" height="2" fill="url(#fSig)" opacity="0.4"/>
+</svg>
