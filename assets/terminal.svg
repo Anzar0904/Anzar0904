@@ -1,0 +1,29 @@
+<svg viewBox="0 0 700 200" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="AIOS boot sequence terminal">
+  <defs>
+    <linearGradient id="tbg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#0D1219"/>
+      <stop offset="100%" stop-color="#0A0E14"/>
+    </linearGradient>
+  </defs>
+  <rect width="700" height="200" fill="url(#tbg)" rx="8"/>
+  <rect x="1" y="1" width="698" height="198" fill="none" stroke="#A855F7" stroke-width="0.5" rx="8" opacity="0.3"/>
+  <!-- Window chrome -->
+  <circle cx="24" cy="22" r="5" fill="#FF5F56"/>
+  <circle cx="42" cy="22" r="5" fill="#FFBD2E"/>
+  <circle cx="60" cy="22" r="5" fill="#27C93F"/>
+  <text x="290" y="27" font-family="'SF Mono', monospace" font-size="10" fill="#4B5563" text-anchor="middle">aios — kernel boot</text>
+  <line x1="0" y1="38" x2="700" y2="38" stroke="#1E2938" stroke-width="1"/>
+  <!-- Boot lines -->
+  <g font-family="'SF Mono', 'Fira Code', monospace" font-size="12">
+    <text y="62" opacity="0"><tspan x="24" fill="#4B5563">$</tspan><tspan fill="#22D3EE"> aios --init kernel</tspan><animate attributeName="opacity" values="0;1" dur="0.1s" begin="0.2s" fill="freeze"/></text>
+    <text y="82" opacity="0"><tspan x="24" fill="#22D3EE">✓</tspan><tspan fill="#6B7280"> kernel loaded</tspan><animate attributeName="opacity" values="0;1" dur="0.1s" begin="0.6s" fill="freeze"/></text>
+    <text y="99" opacity="0"><tspan x="24" fill="#22D3EE">✓</tspan><tspan fill="#6B7280"> memory subsystem ready</tspan><animate attributeName="opacity" values="0;1" dur="0.1s" begin="0.9s" fill="freeze"/></text>
+    <text y="116" opacity="0"><tspan x="24" fill="#22D3EE">✓</tspan><tspan fill="#6B7280"> tool registry mounted</tspan><animate attributeName="opacity" values="0;1" dur="0.1s" begin="1.2s" fill="freeze"/></text>
+    <text y="133" opacity="0"><tspan x="24" fill="#22D3EE">✓</tspan><tspan fill="#6B7280"> agent mesh connected [3 peers]</tspan><animate attributeName="opacity" values="0;1" dur="0.1s" begin="1.5s" fill="freeze"/></text>
+    <text y="150" opacity="0"><tspan x="24" fill="#22D3EE">✓</tspan><tspan fill="#6B7280"> research pipeline nominal</tspan><animate attributeName="opacity" values="0;1" dur="0.1s" begin="1.8s" fill="freeze"/></text>
+    <text y="167" opacity="0"><tspan x="24" fill="#A855F7">▶</tspan><tspan fill="#E2E8F0"> AIOS ready</tspan><animate attributeName="opacity" values="0;1" dur="0.1s" begin="2.1s" fill="freeze"/></text>
+    <text y="167" opacity="0"><tspan x="145" fill="#A855F7">_</tspan>
+      <animate attributeName="opacity" values="0;0;1;0;1;0;1" dur="1.2s" begin="2.2s" repeatCount="indefinite"/>
+    </text>
+  </g>
+</svg>

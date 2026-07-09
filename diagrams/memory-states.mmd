@@ -1,0 +1,7 @@
+%%{init: {"theme": "dark", "themeVariables": {"primaryColor": "#A855F7", "lineColor": "#22D3EE"}}}%%
+stateDiagram-v2
+    [*] --> Episodic
+    Episodic --> Working: Load relevant
+    Working --> Semantic: Consolidate
+    Semantic --> Episodic: Recall
+    Working --> [*]: Flush

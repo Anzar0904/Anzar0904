@@ -1,0 +1,8 @@
+%%{init: {"theme": "dark", "themeVariables": {"primaryColor": "#A855F7", "lineColor": "#22D3EE"}}}%%
+graph LR
+    A1((Agent A)) <--> A2((Agent B))
+    A2 <--> A3((Agent C))
+    A3 <--> A1
+    A1 <--> SK[(Shared Knowledge)]
+    A2 <--> SK
+    A3 <--> SK

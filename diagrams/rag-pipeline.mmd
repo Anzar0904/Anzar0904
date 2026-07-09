@@ -1,0 +1,15 @@
+%%{init: {"theme": "dark", "themeVariables": {"primaryColor": "#3B82F6", "lineColor": "#22D3EE"}}}%%
+sequenceDiagram
+    participant U as User
+    participant K as Kernel
+    participant R as Retriever
+    participant V as Vector DB
+    participant L as LLM
+    U->>K: Query
+    K->>R: Retrieve context
+    R->>V: Similarity search
+    V-->>R: Top-k chunks
+    R-->>K: Context
+    K->>L: Prompt + context
+    L-->>K: Response
+    K-->>U: Answer

@@ -1,0 +1,11 @@
+%%{init: {"theme": "dark", "themeVariables": {"primaryColor": "#A855F7", "edgeLabelBackground": "#0A0E14", "lineColor": "#22D3EE"}}}%%
+flowchart TD
+    U([User / Client]) --> K[AIOS Kernel]
+    K --> M[(Memory Store)]
+    K --> T[Tool Registry]
+    K --> P[Planner]
+    P --> A1[Agent 1]
+    P --> A2[Agent 2]
+    P --> A3[Agent N]
+    A1 & A2 & A3 --> R[(Results)]
+    R --> K

@@ -1,0 +1,43 @@
+<svg viewBox="0 0 700 90" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="AIOS system status dashboard">
+  <defs>
+    <linearGradient id="sbg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#0D1219"/>
+      <stop offset="100%" stop-color="#0A0E14"/>
+    </linearGradient>
+  </defs>
+  <rect width="700" height="90" fill="url(#sbg)" rx="6"/>
+  <rect x="0.5" y="0.5" width="699" height="89" fill="none" stroke="#1E2938" stroke-width="1" rx="6"/>
+  <!-- 6 tiles: x positions at 14, 127, 240, 353, 466, 579; width 100 each -->
+  <g font-family="'SF Mono', 'Fira Code', monospace">
+    <!-- Kernel -->
+    <rect x="14" y="12" width="100" height="66" fill="#0F1520" rx="4"/>
+    <text x="64" y="36" text-anchor="middle" font-size="9" fill="#4B5563" letter-spacing="1">KERNEL</text>
+    <text x="64" y="58" text-anchor="middle" font-size="18" fill="#22D3EE">⬡</text>
+    <text x="64" y="72" text-anchor="middle" font-size="8" fill="#22D3EE" opacity="0.7">ONLINE</text>
+    <!-- Memory -->
+    <rect x="127" y="12" width="100" height="66" fill="#0F1520" rx="4"/>
+    <text x="177" y="36" text-anchor="middle" font-size="9" fill="#4B5563" letter-spacing="1">MEMORY</text>
+    <text x="177" y="58" text-anchor="middle" font-size="18" fill="#A855F7">◈</text>
+    <text x="177" y="72" text-anchor="middle" font-size="8" fill="#A855F7" opacity="0.7">INDEXED</text>
+    <!-- Research -->
+    <rect x="240" y="12" width="100" height="66" fill="#0F1520" rx="4"/>
+    <text x="290" y="36" text-anchor="middle" font-size="9" fill="#4B5563" letter-spacing="1">RESEARCH</text>
+    <text x="290" y="58" text-anchor="middle" font-size="18" fill="#3B82F6">⟁</text>
+    <text x="290" y="72" text-anchor="middle" font-size="8" fill="#3B82F6" opacity="0.7">ACTIVE</text>
+    <!-- Automation -->
+    <rect x="353" y="12" width="100" height="66" fill="#0F1520" rx="4"/>
+    <text x="403" y="36" text-anchor="middle" font-size="9" fill="#4B5563" letter-spacing="1">AUTOMATE</text>
+    <text x="403" y="58" text-anchor="middle" font-size="18" fill="#22D3EE">⟳</text>
+    <text x="403" y="72" text-anchor="middle" font-size="8" fill="#22D3EE" opacity="0.7">RUNNING</text>
+    <!-- Agents -->
+    <rect x="466" y="12" width="100" height="66" fill="#0F1520" rx="4"/>
+    <text x="516" y="36" text-anchor="middle" font-size="9" fill="#4B5563" letter-spacing="1">AGENTS</text>
+    <text x="516" y="58" text-anchor="middle" font-size="18" fill="#A855F7">⬡</text>
+    <text x="516" y="72" text-anchor="middle" font-size="8" fill="#A855F7" opacity="0.7">MESH</text>
+    <!-- Projects -->
+    <rect x="579" y="12" width="100" height="66" fill="#0F1520" rx="4"/>
+    <text x="629" y="36" text-anchor="middle" font-size="9" fill="#4B5563" letter-spacing="1">PROJECTS</text>
+    <text x="629" y="58" text-anchor="middle" font-size="18" fill="#3B82F6">◉</text>
+    <text x="629" y="72" text-anchor="middle" font-size="8" fill="#3B82F6" opacity="0.7">OPEN</text>
+  </g>
+</svg>
