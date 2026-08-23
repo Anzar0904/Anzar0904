@@ -281,7 +281,7 @@ class Mission:
 ### Recent Activity
 
 <!--START_SECTION:activity-->
-1. 🎉 Merged PR [#3](https://github.com/Anzar0904/demo/pull/3) in [Anzar0904/demo](https://github.com/Anzar0904/demo)
+1. 🎉 Merged PR [#2](https://github.com/Anzar0904/Aios/pull/2) in [Anzar0904/Aios](https://github.com/Anzar0904/Aios)
 <!--END_SECTION:activity-->
 
 ### Metrics
