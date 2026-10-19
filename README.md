@@ -281,7 +281,7 @@ class Mission:
 ### Recent Activity
 
 <!--START_SECTION:activity-->
-1. 🎉 Merged PR [#2](https://github.com/Anzar0904/Aios/pull/2) in [Anzar0904/Aios](https://github.com/Anzar0904/Aios)
+1. 💪 Opened PR [#57454](https://github.com/is-a-dev/register/pull/57454) in [is-a-dev/register](https://github.com/is-a-dev/register)
 <!--END_SECTION:activity-->
 
 ### Metrics
