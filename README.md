@@ -281,7 +281,7 @@ class Mission:
 ### Recent Activity
 
 <!--START_SECTION:activity-->
-1. 💪 Opened PR [#57602](https://github.com/is-a-dev/register/pull/57602) in [is-a-dev/register](https://github.com/is-a-dev/register)
+1. 🎉 Merged PR [#57602](https://github.com/is-a-dev/register/pull/57602) in [is-a-dev/register](https://github.com/is-a-dev/register)
 <!--END_SECTION:activity-->
 
 ### Metrics
